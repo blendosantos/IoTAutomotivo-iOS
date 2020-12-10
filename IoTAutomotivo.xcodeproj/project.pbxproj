@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAD2AB952581AF820047F0B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD2AB942581AF820047F0B0 /* AppDelegate.swift */; };
+		DAD2AB972581AF820047F0B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD2AB962581AF820047F0B0 /* SceneDelegate.swift */; };
+		DAD2AB992581AF820047F0B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD2AB982581AF820047F0B0 /* ContentView.swift */; };
+		DAD2AB9B2581AF850047F0B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD2AB9A2581AF850047F0B0 /* Assets.xcassets */; };
+		DAD2AB9E2581AF850047F0B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD2AB9D2581AF850047F0B0 /* Preview Assets.xcassets */; };
+		DAD2ABA12581AF850047F0B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD2AB9F2581AF850047F0B0 /* LaunchScreen.storyboard */; };
+		DAD2ABAC2581AF850047F0B0 /* IoTAutomotivoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD2ABAB2581AF850047F0B0 /* IoTAutomotivoTests.swift */; };
+		DAD2ABB72581AF850047F0B0 /* IoTAutomotivoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD2ABB62581AF850047F0B0 /* IoTAutomotivoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAD2ABA82581AF850047F0B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD2AB892581AF820047F0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD2AB902581AF820047F0B0;
+			remoteInfo = IoTAutomotivo;
+		};
+		DAD2ABB32581AF850047F0B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD2AB892581AF820047F0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD2AB902581AF820047F0B0;
+			remoteInfo = IoTAutomotivo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAD2AB912581AF820047F0B0 /* IoTAutomotivo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IoTAutomotivo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD2AB942581AF820047F0B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAD2AB962581AF820047F0B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DAD2AB982581AF820047F0B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAD2AB9A2581AF850047F0B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAD2AB9D2581AF850047F0B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAD2ABA02581AF850047F0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAD2ABA22581AF850047F0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD2ABA72581AF850047F0B0 /* IoTAutomotivoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IoTAutomotivoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD2ABAB2581AF850047F0B0 /* IoTAutomotivoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IoTAutomotivoTests.swift; sourceTree = "<group>"; };
+		DAD2ABAD2581AF850047F0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD2ABB22581AF850047F0B0 /* IoTAutomotivoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IoTAutomotivoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD2ABB62581AF850047F0B0 /* IoTAutomotivoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IoTAutomotivoUITests.swift; sourceTree = "<group>"; };
+		DAD2ABB82581AF850047F0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD2AB8E2581AF820047F0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD2ABA42581AF850047F0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD2ABAF2581AF850047F0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAD2AB882581AF820047F0B0 = {
+			isa = PBXGroup;
+			children = (
+				DAD2AB932581AF820047F0B0 /* IoTAutomotivo */,
+				DAD2ABAA2581AF850047F0B0 /* IoTAutomotivoTests */,
+				DAD2ABB52581AF850047F0B0 /* IoTAutomotivoUITests */,
+				DAD2AB922581AF820047F0B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD2AB922581AF820047F0B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD2AB912581AF820047F0B0 /* IoTAutomotivo.app */,
+				DAD2ABA72581AF850047F0B0 /* IoTAutomotivoTests.xctest */,
+				DAD2ABB22581AF850047F0B0 /* IoTAutomotivoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD2AB932581AF820047F0B0 /* IoTAutomotivo */ = {
+			isa = PBXGroup;
+			children = (
+				DAD2AB942581AF820047F0B0 /* AppDelegate.swift */,
+				DAD2AB962581AF820047F0B0 /* SceneDelegate.swift */,
+				DAD2AB982581AF820047F0B0 /* ContentView.swift */,
+				DAD2AB9A2581AF850047F0B0 /* Assets.xcassets */,
+				DAD2AB9F2581AF850047F0B0 /* LaunchScreen.storyboard */,
+				DAD2ABA22581AF850047F0B0 /* Info.plist */,
+				DAD2AB9C2581AF850047F0B0 /* Preview Content */,
+			);
+			path = IoTAutomotivo;
+			sourceTree = "<group>";
+		};
+		DAD2AB9C2581AF850047F0B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DAD2AB9D2581AF850047F0B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAD2ABAA2581AF850047F0B0 /* IoTAutomotivoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD2ABAB2581AF850047F0B0 /* IoTAutomotivoTests.swift */,
+				DAD2ABAD2581AF850047F0B0 /* Info.plist */,
+			);
+			path = IoTAutomotivoTests;
+			sourceTree = "<group>";
+		};
+		DAD2ABB52581AF850047F0B0 /* IoTAutomotivoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD2ABB62581AF850047F0B0 /* IoTAutomotivoUITests.swift */,
+				DAD2ABB82581AF850047F0B0 /* Info.plist */,
+			);
+			path = IoTAutomotivoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD2AB902581AF820047F0B0 /* IoTAutomotivo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD2ABBB2581AF850047F0B0 /* Build configuration list for PBXNativeTarget "IoTAutomotivo" */;
+			buildPhases = (
+				DAD2AB8D2581AF820047F0B0 /* Sources */,
+				DAD2AB8E2581AF820047F0B0 /* Frameworks */,
+				DAD2AB8F2581AF820047F0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IoTAutomotivo;
+			productName = IoTAutomotivo;
+			productReference = DAD2AB912581AF820047F0B0 /* IoTAutomotivo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAD2ABA62581AF850047F0B0 /* IoTAutomotivoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD2ABBE2581AF850047F0B0 /* Build configuration list for PBXNativeTarget "IoTAutomotivoTests" */;
+			buildPhases = (
+				DAD2ABA32581AF850047F0B0 /* Sources */,
+				DAD2ABA42581AF850047F0B0 /* Frameworks */,
+				DAD2ABA52581AF850047F0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD2ABA92581AF850047F0B0 /* PBXTargetDependency */,
+			);
+			name = IoTAutomotivoTests;
+			productName = IoTAutomotivoTests;
+			productReference = DAD2ABA72581AF850047F0B0 /* IoTAutomotivoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAD2ABB12581AF850047F0B0 /* IoTAutomotivoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD2ABC12581AF850047F0B0 /* Build configuration list for PBXNativeTarget "IoTAutomotivoUITests" */;
+			buildPhases = (
+				DAD2ABAE2581AF850047F0B0 /* Sources */,
+				DAD2ABAF2581AF850047F0B0 /* Frameworks */,
+				DAD2ABB02581AF850047F0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD2ABB42581AF850047F0B0 /* PBXTargetDependency */,
+			);
+			name = IoTAutomotivoUITests;
+			productName = IoTAutomotivoUITests;
+			productReference = DAD2ABB22581AF850047F0B0 /* IoTAutomotivoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD2AB892581AF820047F0B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Blendo Santos";
+				TargetAttributes = {
+					DAD2AB902581AF820047F0B0 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					DAD2ABA62581AF850047F0B0 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = DAD2AB902581AF820047F0B0;
+					};
+					DAD2ABB12581AF850047F0B0 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = DAD2AB902581AF820047F0B0;
+					};
+				};
+			};
+			buildConfigurationList = DAD2AB8C2581AF820047F0B0 /* Build configuration list for PBXProject "IoTAutomotivo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAD2AB882581AF820047F0B0;
+			productRefGroup = DAD2AB922581AF820047F0B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD2AB902581AF820047F0B0 /* IoTAutomotivo */,
+				DAD2ABA62581AF850047F0B0 /* IoTAutomotivoTests */,
+				DAD2ABB12581AF850047F0B0 /* IoTAutomotivoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD2AB8F2581AF820047F0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD2ABA12581AF850047F0B0 /* LaunchScreen.storyboard in Resources */,
+				DAD2AB9E2581AF850047F0B0 /* Preview Assets.xcassets in Resources */,
+				DAD2AB9B2581AF850047F0B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD2ABA52581AF850047F0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD2ABB02581AF850047F0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD2AB8D2581AF820047F0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD2AB952581AF820047F0B0 /* AppDelegate.swift in Sources */,
+				DAD2AB972581AF820047F0B0 /* SceneDelegate.swift in Sources */,
+				DAD2AB992581AF820047F0B0 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD2ABA32581AF850047F0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD2ABAC2581AF850047F0B0 /* IoTAutomotivoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD2ABAE2581AF850047F0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD2ABB72581AF850047F0B0 /* IoTAutomotivoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAD2ABA92581AF850047F0B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD2AB902581AF820047F0B0 /* IoTAutomotivo */;
+			targetProxy = DAD2ABA82581AF850047F0B0 /* PBXContainerItemProxy */;
+		};
+		DAD2ABB42581AF850047F0B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD2AB902581AF820047F0B0 /* IoTAutomotivo */;
+			targetProxy = DAD2ABB32581AF850047F0B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAD2AB9F2581AF850047F0B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD2ABA02581AF850047F0B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAD2ABB92581AF850047F0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAD2ABBA2581AF850047F0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD2ABBC2581AF850047F0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IoTAutomotivo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = IoTAutomotivo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.edu.ifba.IoTAutomotivo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAD2ABBD2581AF850047F0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IoTAutomotivo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = IoTAutomotivo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.edu.ifba.IoTAutomotivo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAD2ABBF2581AF850047F0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IoTAutomotivoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.edu.ifba.IoTAutomotivoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IoTAutomotivo.app/IoTAutomotivo";
+			};
+			name = Debug;
+		};
+		DAD2ABC02581AF850047F0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IoTAutomotivoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.edu.ifba.IoTAutomotivoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IoTAutomotivo.app/IoTAutomotivo";
+			};
+			name = Release;
+		};
+		DAD2ABC22581AF850047F0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IoTAutomotivoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.edu.ifba.IoTAutomotivoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IoTAutomotivo;
+			};
+			name = Debug;
+		};
+		DAD2ABC32581AF850047F0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IoTAutomotivoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.edu.ifba.IoTAutomotivoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IoTAutomotivo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD2AB8C2581AF820047F0B0 /* Build configuration list for PBXProject "IoTAutomotivo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD2ABB92581AF850047F0B0 /* Debug */,
+				DAD2ABBA2581AF850047F0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD2ABBB2581AF850047F0B0 /* Build configuration list for PBXNativeTarget "IoTAutomotivo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD2ABBC2581AF850047F0B0 /* Debug */,
+				DAD2ABBD2581AF850047F0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD2ABBE2581AF850047F0B0 /* Build configuration list for PBXNativeTarget "IoTAutomotivoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD2ABBF2581AF850047F0B0 /* Debug */,
+				DAD2ABC02581AF850047F0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD2ABC12581AF850047F0B0 /* Build configuration list for PBXNativeTarget "IoTAutomotivoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD2ABC22581AF850047F0B0 /* Debug */,
+				DAD2ABC32581AF850047F0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAD2AB892581AF820047F0B0 /* Project object */;
+}
